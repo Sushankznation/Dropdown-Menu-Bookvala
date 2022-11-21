@@ -2,8 +2,23 @@
   text-align: center;
 }
 
-.App div{
+.App div {
   text-align: left;
 }
-
-
+a {
+  text-decoration: none;
+  border: 2px solid ghostwhite;
+  color: white;
+  background-color: green;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+a:hover {
+  background-color: aliceblue;
+  transition: 0.3s;
+  color: black;
+}
+h2 {
+  color: grey;
+}
