@@ -7,7 +7,7 @@ import Select from "react-select";
 const colourStyles = {
   control: (styles) => ({ ...styles, backgroundColor: "white" }),
   option: (styles, { data, isDisabled, isFocused, isSelected }) => {
-    const color = chroma(data.color); 
+    const color = chroma(data.color);
     return {
       ...styles,
       backgroundColor: isDisabled
