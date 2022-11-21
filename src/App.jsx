@@ -4,24 +4,22 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Dropdown for BOOKVALA D2D INDIA PRIVATE LIMITED</h1>
+      <h2>Dropdown menu for BOOKVALA D2D INDIA PRIVATE LIMITED</h2>
       <h4>
         <a
           target="_blank"
-          href="https://github.com/kalpadhwaryu/dropdown_for_bookvala"
+          href="https://github.com/Sushankznation/Dropdown-Menu-Bookvala"
         >
           Source Code
         </a>
       </h4>
       <h4>
         Made by{" "}
-        <a target="_blank" href="https://github.com/kalpadhwaryu">
-          Kalp Adhwaryu
+        <a target="_blank" href="https://github.com/Sushankznation">
+          Sushant Bherwal
         </a>
       </h4>
-      <div style={{ marginLeft: 30, marginRight: 30 }}>
-        <DropDown />
-      </div>
+      <DropDown />
     </div>
   );
 }
