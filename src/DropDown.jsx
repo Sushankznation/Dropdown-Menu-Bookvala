@@ -1,7 +1,7 @@
 import React from "react";
 import chroma from "chroma-js";
 
-import { colors } from "../data/data";
+import { colors } from "./data";
 import Select from "react-select";
 
 const colourStyles = {
